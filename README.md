@@ -1,7 +1,17 @@
-# Arduinoboy
-Official ArduinoBoy Repository for serial MIDI communication to the Nintendo Gameboy.
+# UNO Shield for the ArduinoBoy
 
-![ScreenShot](http://trash80.net/arduinoboy/aboy1_2_0.jpg)
+<img src="shield_files/image_shield.png" width="400">
+
+This project adds files for an Arduino UNO shield with the hardware necessary to use the ArduinoBoy software. This shield uses card edge connectors so a link cable can be plugged in, no longer requiring manual routing of link cable wires. 
+
+All files necessary for getting a board made are in the shield_files folder, including gerbers and BOM. A schematic is also included for reference. 
+
+The shield receives notes from the MIDI device(s) connected to the MIDI IN connection. MIDI OUT is provided as a MIDI through connection. 
+Press SW1 to change the operational mode as shown on the LEDs. Operational mode should be set based on the software being run on the Gameboy to use it as a synth. Operational modes are described further in the software section.
+
+NOTE: Below are all original readme contents. Build instructions removed, shield is plug and play. No changes have been made to software in this project.
+# Arduinoboy-software
+Official ArduinoBoy Repository for serial MIDI communication to the Nintendo Gameboy.
 
 ## About 
 Arduinoboy is software for the [Arduino hardware platform](http://arduino.cc) that allows serial communication (MIDI) to the Nintendo Gameboy for music applications such as [LittleSoundDJ](http://littlesounddj.com), [Nanoloop.](http://www.nanoloop.com/), and [mGB](https://github.com/trash80/mGB)
@@ -128,17 +138,6 @@ Setting this will tell your arduinoboy what mode to boot into automatically. Thi
 	* `CC 0` - The initial CC each channel will send. The type of data it will send is based on the next setting.
 	* `CC Mode` - Game Boys have limitations! You can either have arduinoboy send one CC with many values, or 7 with limited 8bit values. By default in Arduinoboy the high nibble selects a CC#, and the low nibble sends a value [0-F] to [0-127]. This can be changed to allow just 1 midi CC with a range of 00-6F, or 7 CCs with scaled or unscaled values.
 	* `CC Scaling ` - Set wether the 7 CCs are scaled or unscaled.
-
-
-## Future Features & wishlist
-  * Build instructions, and a Arduino Shield
-
-## How To build an Arduinoboy
-![ScreenShot](http://farm3.static.flickr.com/2229/2316803721_c22f9c2387.jpg)
-![ScreenShot](http://trash80.net/arduinoboy/arduinoboy_schematic_1_1_0.png)
-
-* [Build Photos](http://flickr.com/photos/trash80/2316803175/in/set-72157604068871573/)
-* [Old version (Pre 1.1.0)](http://trash80.net/junkfood/arduinoboy/arduinoboy-schem-v.0.9.8-r1.png)
 
 ### Video Demos
 

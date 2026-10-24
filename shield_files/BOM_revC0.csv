@@ -1,0 +1,13 @@
+Id,Designator,Footprint,Quantity,Part Number,Supplier and ref
+1,D1,D_DO-35_SOD27_P7.62mm_Horizontal,1,1N4448,onsemi
+2,J1,PinSocket_1x08_P2.54mm_Vertical,1,61300811121,Wurth
+3,J2,PinSocket_1x10_P2.54mm_Vertical,1,61301011121,Wurth
+4,J3,PinSocket_1x06_P2.54mm_Vertical,1,61300611121,Wurth
+5,J4,PinSocket_1x08_P2.54mm_Vertical,1,61300811121,Wurth
+6,"J5, J7",CUI_SDS-50J,2,SDS-50J,CUI
+9,"LSDJ1, LSDJ2, LSDJ3, mGB, NLOOP, STATUS",LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,6,LTST-C190GKT,Lite-On Inc.
+10,R6,R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,1,AC0805FR-07270RL,Yageo
+11,"R7, R9",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,2,AC0805FR-07220RL,Yageo
+12,"R10, R11, R12, R13, R14, R15, R16, R17, R18, R19",R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,10,RC0805FR-072KL,Yageo
+13,SW1,SW_Push_1P1T_NO_CK_KMR2,1,KMR231G LFS,C&K
+14,U1,DIP-8_W7.62mm_Socket_LongPads,1,6N138,Texas Instruments
